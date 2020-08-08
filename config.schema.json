@@ -12,6 +12,11 @@
                   "type": "string",
                   "required": true,
                   "format": "hostname"
+               },
+               "debug": {
+                  "type": "boolean",
+                  "required": true,
+                  "title": "Enable/Disable Debug"
                }
             }
          },
