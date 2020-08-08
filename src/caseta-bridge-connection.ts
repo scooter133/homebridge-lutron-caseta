@@ -36,7 +36,7 @@ export class CasetaBridgeConnection extends EventEmitter {
         port: 23,
         username: "lutron",
         password: "integration",
-        debug: false,
+        debug: "",
       },
       ...options,
     };
